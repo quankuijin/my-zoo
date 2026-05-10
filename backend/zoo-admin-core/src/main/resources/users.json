@@ -1,0 +1,28 @@
+[
+  {
+    "id": "admin-user-id",
+    "username": "admin",
+    "password": "123",
+    "name": "系统管理员",
+    "email": "admin@zoo.com",
+    "phone": "13800000000",
+    "avatar": "🐼",
+    "roleIds": ["admin-role-id"],
+    "enabled": true,
+    "createdAt": "2026-01-01T00:00:00",
+    "updatedAt": "2026-01-01T00:00:00"
+  },
+  {
+    "id": "keeper-user-id",
+    "username": "keeper",
+    "password": "123",
+    "name": "张三",
+    "email": "keeper@zoo.com",
+    "phone": "13900000000",
+    "avatar": "🦁",
+    "roleIds": ["keeper-role-id"],
+    "enabled": true,
+    "createdAt": "2026-01-01T00:00:00",
+    "updatedAt": "2026-01-01T00:00:00"
+  }
+]

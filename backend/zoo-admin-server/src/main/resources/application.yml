@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: zoo-admin
+
+jwt:
+  secret: zoo-admin-secret-key-jwt-must-be-long-enough-256-bits-super-secret
+  expiration: 86400000
+
+logging:
+  level:
+    com.zoo: DEBUG
+    org.springframework: INFO
